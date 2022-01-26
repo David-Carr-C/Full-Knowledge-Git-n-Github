@@ -2,3 +2,8 @@ Estoy en el camino de convertirme un Full-Stack Java Developer
 
 Estoy continuamente creando proyectos, estudiando en la buap, realizando codigo y avanzando en mis metas
 
+
+git show -> muestra los ultimos cambios realizados
+git log -> muestra todos los cambios realizados
+git log [archivo] -> muestra todos los cambios realizados a ese archivo
+git push -> envia los cambios al repositorio remoto
