@@ -3,7 +3,14 @@ Estoy en el camino de convertirme un Full-Stack Java Developer
 Estoy continuamente creando proyectos, estudiando en la buap, realizando codigo y avanzando en mis metas
 
 
+Git:
+
 git show -> muestra los ultimos cambios realizados
 git log -> muestra todos los cambios realizados
 git log [archivo] -> muestra todos los cambios realizados a ese archivo
-git push -> envia los cambios al repositorio remoto
+git push -> envia los cambios al repositorio remot
+
+Bash:
+
+history -> Ver los últimos comandos que ejecutamos y un número especial con el que podemos repetir su ejecución.
+! + número -> Ejecutar algún comando con el número que nos muestra el comando history (por ejemplo, !72).
