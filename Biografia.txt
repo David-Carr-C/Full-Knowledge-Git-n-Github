@@ -6,9 +6,10 @@ Estoy continuamente creando proyectos, estudiando en la buap, realizando codigo 
 Git:
 
 git show -> muestra los ultimos cambios realizados
-git log -> muestra todos los cambios realizados
+git log -> muestra todos los cambios realizados y sus ID's de los commits
 git log [archivo] -> muestra todos los cambios realizados a ese archivo
-git push -> envia los cambios al repositorio remot
+git push -> envia los cambios al repositorio remoto
+git diff [commitA] [commitB] -> veremos la diferencia entre una version y la otra
 
 Bash:
 
