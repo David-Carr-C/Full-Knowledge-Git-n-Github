@@ -14,6 +14,7 @@ git log -> muestra todos los cambios realizados y sus ID's de los commits
 git log [archivo] -> muestra todos los cambios realizados a ese archivo
 git push -> envia los cambios al repositorio remoto
 git diff [commitA] [commitB] -> veremos la diferencia entre una version y la otra
+//Al usar git diff muestra mejor los datos si ponemos primero el commit de la version mas antigua y despues el commit de la version mas nueva
 
 Bash:
 
