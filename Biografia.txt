@@ -15,6 +15,8 @@ git log [archivo] -> muestra todos los cambios realizados a ese archivo
 git push -> envia los cambios al repositorio remoto
 git diff [commitA] [commitB] -> veremos la diferencia entre una version y la otra
 //Al usar git diff muestra mejor los datos si ponemos primero el commit de la version mas antigua y despues el commit de la version mas nueva
+git reset [commit] --hard -> Vuelve a una version anterior, TODO vuelve a la version anterior
+git reset [commit] --soft -> Se vuelve a la version anterior, y lo que tengamos en staging sigue ahi disponible para el proximo commit 
 
 Bash:
 
