@@ -1,8 +1,10 @@
-Estoy en el camino de convertirme un Full-Stack Java Developer
+Estoy en el camino de convertirme en un Full-Stack Java Developer
 
 Estoy continuamente creando proyectos, estudiando en la buap, realizando codigo y avanzando en mis metas
 
 Espero lograr un mejor futuro en esta industria, industria la cual me apasiona.
+
+Java y JavaScript <3
 
 
 Git:
