@@ -21,6 +21,8 @@ git log --stat -> Se visualiza el log pero con las lineas insertadas y cambios m
 git checkout [commit] [file] -> Se regresa dicho archivo del commit elegido a la rama actual
 git checkout [commit] -> Se posiciona uno mismo en el commit elegido
 git checkout master -> Se cambia a ultima version, a la rama master de todo git 
+git rm --cached [file] -> Elimina los archivos de nuestro repositorio local y del area de staging, pero los mantiene en el disco duro
+git rm --force [file] -> Elimina los archivos de git y del disco duro
 
 Bash:
 
