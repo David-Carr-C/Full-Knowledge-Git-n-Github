@@ -8,7 +8,10 @@ class Libro {
 	public String leerLibro() {
 		return "Estoy leyendo el libro";
 	}
-	public String setTitulo(String titulo) {
+	public void setTitulo(String titulo) {
 		this.titulo = titulo;
+	}
+	public String getTitulo(){
+		return titulo;
 	}
 }
