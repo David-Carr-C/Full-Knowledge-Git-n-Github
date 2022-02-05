@@ -23,6 +23,8 @@ git checkout [commit] -> Se posiciona uno mismo en el commit elegido
 git checkout master -> Se cambia a ultima version, a la rama master de todo git 
 git rm --cached [file] -> Elimina los archivos de nuestro repositorio local y del area de staging, pero los mantiene en el disco duro
 git rm --force [file] -> Elimina los archivos de git y del disco duro
+git branch [nuevaRama] -> Crea una rama
+git checkout [rama] -> Se mueve el directorio de trabajo a la rama seleccionada
 
 Bash:
 
