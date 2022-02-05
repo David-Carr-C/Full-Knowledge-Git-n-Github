@@ -27,6 +27,7 @@ git branch [nuevaRama] -> Crea una rama
 git branch -D [rama] -> Elimina la rama seleccionada
 git checkout [rama] -> Se mueve el directorio de trabajo a la rama seleccionada
 git restore [file] -> Regresa el archivo a la version del commit actual
+git merge [rama] -> Junta la rama actual con la rama seleccionada, si hay conflictos habra que solucionarlos, gracias a la sintaxis de Git, esto puede ser solucionado mas facilmente
 
 Bash:
 
