@@ -26,6 +26,7 @@ git rm --force [file] -> Elimina los archivos de git y del disco duro
 git branch [nuevaRama] -> Crea una rama
 git branch -D [rama] -> Elimina la rama seleccionada
 git checkout [rama] -> Se mueve el directorio de trabajo a la rama seleccionada
+git restore [file] -> Regresa el archivo a la version del commit actual
 
 Bash:
 
