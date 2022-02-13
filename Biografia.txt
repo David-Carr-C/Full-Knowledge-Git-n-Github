@@ -28,6 +28,13 @@ git branch -D [rama] -> Elimina la rama seleccionada
 git checkout [rama] -> Se mueve el directorio de trabajo a la rama seleccionada
 git restore [file] -> Regresa el archivo a la version del commit actual
 git merge [rama] -> Junta la rama actual con la rama seleccionada, si hay conflictos habra que solucionarlos, gracias a la sintaxis de Git, esto puede ser solucionado mas facilmente
+git remote add [origin] https://github.com/User/Repositorio.git -> Agrega una rama remota, origin puede ser cambiado por otro nombre que describa esta rama
+git remote -v -> Muestra las ramas remotas que se han agregado, a que enlacen conectan, y la disponibilidad de hacer push y fetch
+git remote remove [ramaRemota] -> Elimina el git remote agregado previamente
+git push [ramaRemota] [ramaDelRepositorioRemoto] -> Envia los cambios de la rama actual a la rama remota previamente agregada, y el push se enviara a la branch del repositorio remoto elegido
+git pull [ramaRemota] [ramaDelRepositorioRemoto] -> Realiza un fetch de la rama del repositorio remoto, y despues hace un merge para integrar los datos al repositorio local
+git pull [ramaRemota] [ramaDelRepositorioRemoto] --allow-unrelated-histories -> Integra los datos del repositorio remoto aunque sus commits sean totalmente diferentes
+//ramaRemota es tambien llamado origin por convencion
 
 Bash:
 
