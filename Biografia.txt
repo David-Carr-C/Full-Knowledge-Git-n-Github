@@ -1,0 +1,35 @@
+Estoy en el camino de convertirme en un Full-Stack Java Developer
+
+Estoy continuamente creando proyectos, estudiando en la buap, realizando codigo y avanzando en mis metas
+
+Espero lograr un mejor futuro en esta industria, industria la cual me apasiona.
+
+Java y JavaScript <3
+
+
+Git:
+
+git show -> muestra los ultimos cambios realizados
+git log -> muestra todos los cambios realizados y sus ID's de los commits
+git log [archivo] -> muestra todos los cambios realizados a ese archivo
+git push -> envia los cambios al repositorio remoto
+git diff [commitA] [commitB] -> veremos la diferencia entre una version y la otra
+//Al usar git diff muestra mejor los datos si ponemos primero el commit de la version mas antigua y despues el commit de la version mas nueva
+git reset [commit] --hard -> Vuelve a una version anterior, TODO vuelve a la version anterior
+git reset [commit] --soft -> Se vuelve a la version anterior, y lo que tengamos en staging sigue ahi disponible para el proximo commit
+git log --stat -> Se visualiza el log pero con las lineas insertadas y cambios mas especificos
+git checkout [commit] [file] -> Se regresa dicho archivo del commit elegido a la rama actual
+git checkout [commit] -> Se posiciona uno mismo en el commit elegido
+git checkout master -> Se cambia a ultima version, a la rama master de todo git 
+git rm --cached [file] -> Elimina los archivos de nuestro repositorio local y del area de staging, pero los mantiene en el disco duro
+git rm --force [file] -> Elimina los archivos de git y del disco duro
+git branch [nuevaRama] -> Crea una rama
+git branch -D [rama] -> Elimina la rama seleccionada
+git checkout [rama] -> Se mueve el directorio de trabajo a la rama seleccionada
+git restore [file] -> Regresa el archivo a la version del commit actual
+git merge [rama] -> Junta la rama actual con la rama seleccionada, si hay conflictos habra que solucionarlos, gracias a la sintaxis de Git, esto puede ser solucionado mas facilmente
+
+Bash:
+
+history -> Ver los últimos comandos que ejecutamos y un número especial con el que podemos repetir su ejecución.
+! + número -> Ejecutar algún comando con el número que nos muestra el comando history (por ejemplo, !72).
