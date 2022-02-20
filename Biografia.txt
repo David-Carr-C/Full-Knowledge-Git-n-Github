@@ -64,3 +64,7 @@ se agregara la llave privada
 Ahora, se procede a poner la llave publica en Github, en el apartado de SSH.
 Despues se consigue el enlace SSH del repositorio que quieres manejar, y este se agrega a git remote con:
 git remote set-url origin [sshRepositorio]
+
+
+*Se debe realizar git pull origin [ramaRemota] para obtener los cambios de la rama elegida
+y git push origin [ramaActualParaEnviarOCrearUnaRamaRemota] se utiliza para posicionarnos en la rama donde estamos trabajando actualmente y despues enviar los cambios ya sea en una rama llamada asi anteriormente, o creando una nueva rama, con el nombre de la rama local, dando la posibilidad de hacer pull request
